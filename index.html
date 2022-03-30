@@ -1,13 +1,65 @@
-<h1>xda =</h1>
 <!DOCTYPE html>
 <html>
  <head>
  <meta charset="utf-8">
  <title>Мой эксперимент с CSS</title>
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="calcD.js">
  </head>
  <body>
- <h1>Hello World!</h1>
- <p>Это мой первый CSS-пример</p>
- </body>
-</html
+ <h1>Конспект курса</h1>
+<p class="learned-ok">Парные теги.</p>
+<p class="learned-ok">Одиночные теги.</p>
+<p class="learned-ok">Атрибуты тегов.</p>
+<p class="learned-ok">Инлайновые (встроенные) стили.</p>
+<p class="learning-in-progress">Внешние стили.</p>
+<p class="not-learned">Стилизация по классам.</p>
+</body>
+<style>
+body {
+font-family: Tahoma, serif;
+}
+h1 {
+color: #999999;
+}
+.learned-ok {
+color: green;
+}
+.learning-in-progress {
+color: orange;
+}
+20
+.not-learned {
+color: red;
+}
+</style>
+ <style>
+    h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+   }
+   p {
+    color: red;
+   }
+   </style>
+  <input value="Нажми меня" onclick= alert type="button"></input>
+  <script>
+ let age = prompt('сколько вас лет?', 0);
+    if (age >= 0 && age < 12)
+    {
+        alert('ты ещё ребенок');
+    }
+    else if (age >= 12 && age < 18)
+    {
+        alert('вы подросток');
+    }
+    else if (age >= 18 && age < 60)
+    {
+        alert('вы взрослый');
+    }
+    else if (age >= 60)
+    {
+        alert('вы на пенсии');
+    }
+   </script>
+</html>
